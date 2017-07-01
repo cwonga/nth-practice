@@ -1,0 +1,38 @@
+body {
+	font-family: sans-serif;
+	color: #616161;
+	padding: 40px 0;
+}
+
+section {
+	margin: auto;
+	width: 50%;
+}
+
+div {
+	border-bottom: 1px dotted;
+	color: #777;
+	padding: 18px 10px;
+}
+
+
+/* Structural Pseudo-classes---- */
+
+div:nth-of-type(4) {
+	background: #52bab3;
+	color: white;
+}
+
+div:nth-of-type(even) {
+	font-weight: bold;
+}
+
+div:nth-last-of-type(1) {
+	color: red;
+}
+
+/* :root and :target psuedo classes ---- */
+
+:root {
+	background:
+}
